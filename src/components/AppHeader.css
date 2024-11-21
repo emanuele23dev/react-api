@@ -1,0 +1,21 @@
+.navbar {
+  background-color: rgb(29, 29, 29);
+}
+
+img {
+  margin-left: 10px;
+  animation: rotate 4s linear infinite;
+
+  &:hover {
+    filter: drop-shadow(0 0 1em rgb(0, 157, 255));
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
