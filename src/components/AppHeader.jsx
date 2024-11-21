@@ -10,7 +10,7 @@ export default function AppHeader() {
         <a className="nav-item nav-link" href="#">
           Blog
         </a>
-        <img src={reactLogo} alt="" />
+        <img className="logo" src={reactLogo} alt="" />
       </div>
     </nav>
   );

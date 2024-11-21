@@ -2,7 +2,7 @@
   background-color: rgb(29, 29, 29);
 }
 
-img {
+.logo {
   margin-left: 10px;
   animation: rotate 4s linear infinite;
 
